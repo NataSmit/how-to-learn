@@ -18,7 +18,6 @@
   display: flex;
   align-items: center;
   position: relative;
-  border: red 1px solid;
   margin-bottom: 100px;
 
 }
@@ -79,13 +78,12 @@
 .description {
   display: flex;
   justify-content: center;
-  border: red 1px solid;
   margin-bottom: 100px;
+
 }
 
 .description__two-columns {
   width: 80%;
-  border:red solid 1px;
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
@@ -93,7 +91,6 @@
 
 .two-columns__brief {
   max-width: 175px;
-  border: royalblue 1px solid;
 }
 
 .two-columns__brief__text{
@@ -105,10 +102,8 @@
 }
 
 .two-columns__main-text {
-  border: royalblue 1px solid;
   width: 80%;
   min-width: 784px;
-
 }
 
 .two-columns__span-accent {
@@ -129,7 +124,6 @@
 }
 
 .digits {
-  border: red 1px solid;
   margin-bottom: 100px;
 
 }
@@ -154,24 +148,19 @@
 
 .table {
   display: flex;
-  border: red 1px solid;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 1100px;
+  max-width: 1100px;
   margin: 0 auto 100px;
   padding-left: 0;
   position: relative;
-
-
-}
+  }
 
 .table__cell {
   width: 250px;
-  border: blueviolet 1px solid;
   list-style: none;
   margin-top: 60px;
 }
-
 
 .table__cell__heading {
   line-height: 1.15;
@@ -246,7 +235,7 @@
 }
 
 
-.kaufman__title__theme__dark {
+.kaufman-title__theme__dark {
   width: 60%;
   text-align: center;
   line-height: 1.15;
@@ -257,7 +246,7 @@
   z-index: 2;
 }
 
-.kaufman__subtitle__theme__dark {
+.kaufman-subtitle__theme__dark {
   width: 60%;
   text-align: center;
   line-height: 34px;
@@ -288,7 +277,6 @@
   background-color: black;
   color: white;
   min-height: 350px;
-  border:black 1px solid;
   display: flex;
   justify-content: center;
 
@@ -298,13 +286,8 @@
   max-width: 90%;
   display: flex;
   flex-basis: 711px;
-  border: red 1px solid;
   margin-top: 60px;
   margin-bottom: 40px;
-
-
-
-
   justify-content: space-between ;
   flex-grow: 1;
 }
@@ -326,7 +309,6 @@
 
 .footer__column-links {
   list-style: none;
-  border: red 1px solid;
   padding-left: 0;
 
 }
@@ -356,8 +338,7 @@
 
 .footer__column__content__copyright {
   width: 50%;
-  border: red 1px solid;
-}
+  }
 
 .logo__place__footer {
   width: 183px;
