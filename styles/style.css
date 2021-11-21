@@ -18,8 +18,6 @@
   display: flex;
   align-items: center;
   position: relative;
-  
-
 }
 
 .header__title {
@@ -67,8 +65,8 @@
 
 .header__square-pic {
   position: absolute;
-  max-height: 568px;
-  max-width: 568px;
+  height: 568px;
+  width: 568px;
   top: 64px;
   right: 0;
   background-color: #2f80ed;
@@ -78,7 +76,6 @@
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
-
 }
 
 .description__two-columns {
@@ -142,7 +139,6 @@
   font-size: 24px;
   font-weight: normal;
   margin-bottom: 0;
-
 }
 
 .table {
@@ -175,34 +171,6 @@
   margin-top: 20px;
 }
 
-.feynman__title {
-  width: 648px;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 120px;
-  font-weight: bolder;
-  margin: 0 auto 70px
-
-}
-
-.feynman__subtitle {
-  text-align: center;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-
-}
-
-.feynman__link {
-  position: absolute;
-  top: 50%;
-  right: 48px;
-  line-height: 51px;
-  font-size: 36px;
-  font-weight: normal;
-  text-decoration: none;
-}
-
 .feynman {
   position: relative;
   min-height: 890px;
@@ -213,8 +181,32 @@
   margin-bottom: 90px;
   background-color: #f2f2f2;
   padding-top: 100px;
+}
 
+.feynman__title {
+  width: 648px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bolder;
+  margin: 0 auto 70px;
+}
 
+.feynman__subtitle {
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
 }
 
 .feynman__image {
@@ -254,6 +246,14 @@
   margin: 20px auto 0;
 }
 
+.kaufman__triangle {
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  top: 0;
+  right: -210px;
+}
+
 .table__theme__dark {
   z-index: 1;
 }
@@ -264,21 +264,12 @@
 
 }
 
-.kaufman__triangle {
-  position: absolute;
-  width: 877px;
-  height: 877px;
-  top: 0;
-  right: -210px;
-}
-
 .footer {
   background-color: black;
   color: white;
   min-height: 350px;
   display: flex;
   justify-content: center;
-
 }
 
 .footer__columns {
@@ -295,6 +286,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 50%;
 }
 
 .footer__author {
@@ -304,7 +296,6 @@
   margin-top: 18px;
   margin-bottom: 18px;
 }
-
 
 .footer__column-links {
   list-style: none;
@@ -318,7 +309,6 @@
   font-weight: normal;
   color: white;
   text-decoration: none;
-
 }
 
 .social-icon {
@@ -335,26 +325,8 @@
   margin-top: 0;
 }
 
-.footer__column__content__copyright {
-  width: 50%;
-  }
-
 .logo__place__footer {
   width: 183px;
   height: 35px;
   justify-content: flex-start;
-}
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
 }
