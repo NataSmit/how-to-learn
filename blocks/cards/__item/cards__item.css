@@ -1,0 +1,11 @@
+.cards__item {
+  width: 240px;
+  list-style: none;
+  padding-top: 60px;
+
+}
+
+.cards__item:last-child {
+  visibility: hidden;
+}
+
